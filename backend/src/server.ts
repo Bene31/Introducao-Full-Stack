@@ -3,6 +3,8 @@ import {v4 as uuid} from 'uuid'
 
 const app = express()
 
+app.use(express.json())
+
 //http://localhost:3333/users
 
 
